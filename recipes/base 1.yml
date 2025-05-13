@@ -1,0 +1,29 @@
+---
+:name: base 1
+:description: d1
+:cli_flags: " -d postgresql -j esbuild -c tailwind --skip-docker --skip-kamal --skip-thruster
+  --skip-brakeman --skip-devcontainer"
+:rails_version: 8.0.2
+:ruby_version: 3.4.1
+:ingredients:
+- :name: Built-in Rails Authentication
+  :position: 1
+  :configuration: {}
+- :name: Registration
+  :position: 2
+  :configuration: {}
+- :name: Rails Authentication Form Beautifier
+  :position: 3
+  :configuration: {}
+- :name: Registration view
+  :position: 4
+  :configuration: {}
+- :name: Apply form builder
+  :position: 5
+  :configuration: {}
+- :name: Registration view
+  :position: 6
+  :configuration: {}
+- :name: Simple Homepage
+  :position: 7
+  :configuration: {}
